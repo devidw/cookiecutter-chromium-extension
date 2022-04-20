@@ -1,4 +1,4 @@
-= Cookiecutter Chromium Browser extension
+= Cookiecutter Chromium Browser Extension
 
 Boilerplate template to create new chromium browser extensions blazingly fast.
 
