@@ -3,7 +3,7 @@
     "description": "{{ cookiecutter.project_short_description }}",
     "version": "{{ cookiecutter.version }}",
     "manifest_version": 3,
-    "permissions": []
+    "permissions": [],
     "background": {},
     "content_scripts": [
         {
@@ -12,6 +12,9 @@
             ],
             "js": [
                 "./src/inject.js"
+            ],
+            "css": [
+                "./src/inject.css"
             ]
         }
     ]
