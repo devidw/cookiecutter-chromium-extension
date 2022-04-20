@@ -1,0 +1,10 @@
+{
+    "name": "{{ cookiecutter.project_name }}",
+    "description": "{{ cookiecutter.project_short_description }}",
+    "version": "{{ cookiecutter.version }}",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": []
+}

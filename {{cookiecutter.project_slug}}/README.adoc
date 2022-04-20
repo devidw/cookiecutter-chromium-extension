@@ -1,0 +1,8 @@
+= {{ cookiecutter.project_name }}
+:author: {{cookiecutter.full_name}}
+:email: {{cookiecutter.email}}
+
+{{ cookiecutter.project_short_description }}
+
+
+// == Installation

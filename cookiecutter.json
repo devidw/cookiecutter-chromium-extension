@@ -1,0 +1,10 @@
+{
+    "full_name": "David Wolf",
+    "email": "d@wolf.gdn",
+    "github_username": "devidw",
+    "project_name": "Chromium Extension",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_short_description": "Chromium Extension contains all the boilerplate you need to create a Chromium Extension.",
+    "version": "1.0.0",
+    "open_source_license": "MIT"
+}

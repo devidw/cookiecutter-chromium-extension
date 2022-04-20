@@ -1,0 +1,5 @@
+# Project
+# Add project specifix excludes here
+
+# Operating System
+.DS_STORE
