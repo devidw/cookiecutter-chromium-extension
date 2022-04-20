@@ -14,7 +14,7 @@
                 "./src/inject.js"
             ],
             "css": [
-                "./src/inject.css"
+                "./src/inject.min.css"
             ]
         }
     ]
