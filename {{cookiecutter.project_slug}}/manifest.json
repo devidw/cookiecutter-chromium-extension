@@ -11,10 +11,11 @@
                 "*://example.org/*"
             ],
             "js": [
-                "./src/inject.js"
+                "./src/js/vendor/jquery-3.6.0.min.js",
+                "./src/js/inject.js"
             ],
             "css": [
-                "./src/inject.min.css"
+                "./src/css/inject.min.css"
             ]
         }
     ]
