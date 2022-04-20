@@ -3,8 +3,16 @@
     "description": "{{ cookiecutter.project_short_description }}",
     "version": "{{ cookiecutter.version }}",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "./src/background.js"
-    },
     "permissions": []
+    "background": {},
+    "content_scripts": [
+        {
+            "matches": [
+                "*://example.org/*"
+            ],
+            "js": [
+                "./src/inject.js"
+            ]
+        }
+    ]
 }
